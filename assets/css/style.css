@@ -429,6 +429,25 @@ section {
   color: #1f5297;
 }
 
+.count-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  padding: 20px;
+  background: #f8f9fa;
+}
+.count-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.count-box h6 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.count-box i {
+  font-size: 2rem;
+  color: #007bff;
+}
+
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
